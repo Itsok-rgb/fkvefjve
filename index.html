@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Chocolate Day, Jaan!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chocolate-bg">
+        <div class="container">
+            <h1 class="title">Happy Chocolate Day, <span class="highlight">Jaan!</span></h1>
+            <p class="subtitle">You're sweeter than the finest cocoa.</p>
+            
+            <div class="box-wrapper" id="chocolateBox">
+                <div class="lid">🎁 Tap to Open</div>
+                <div class="box-body">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2153/2153839.png" alt="Chocolate" class="inner-choco">
+                </div>
+            </div>
+
+            <div id="surpriseArea" class="hidden">
+                <div class="golden-ticket">
+                    <h2>🍫 The Golden Ticket 🍫</h2>
+                    <p id="surpriseText"></p>
+                    <button onclick="revealNext()">Click for one more surprise!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
